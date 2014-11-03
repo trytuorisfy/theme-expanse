@@ -48,7 +48,7 @@ a {
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #37cca2;
+  color: orange;
 }
 a:hover {
   color: #0e3029;
@@ -94,7 +94,7 @@ a {
   color: #0e3029;
 }
 a:hover {
-  color: #37cca2;
+  color: orange;
 }
 body {
   padding: 0;
@@ -190,9 +190,9 @@ header {
   position: relative;
   display: block;
   width: 100%;
-  height: 550px;
+  height: 162px;
   overflow: hidden;
-  background-color: #000;
+  background-color: #06664B;
 }
 header .bg {
   position: absolute;
@@ -216,11 +216,11 @@ header .shadow {
 header .shadow.top {
   top: -55px;
   background: transparent;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, transparent), color-stop(1, #000000));
-  background: -ms-linear-gradient(bottom, transparent, #000000);
-  background: -moz-linear-gradient(center bottom, transparent 0%, #000000 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, transparent), color-stop(1, #474747));
+  background: -ms-linear-gradient(bottom, transparent, #474747);
+  background: -moz-linear-gradient(center bottom, transparent 0%, #474747 100%);
   background: -o-linear-gradient(#000000, transparent);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='transparent', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#474747', endColorstr='transparent', GradientType=0);
 }
 header .spinner {
   -webkit-animation: rotation 2s infinite ease-in-out;
@@ -271,16 +271,17 @@ header h1 {
   font-size: 1.75rem;
   color: #ffffff;
   float: left;
-  width: 50%;
+  width: 100%;
   margin: 0;
   padding: 0;
   line-height: 1.75rem;
+  text-align: center;
 }
 header h1 a {
   color: #ffffff;
 }
 header h1 a:hover {
-  color: #37cca2;
+  color: orange;
 }
 header ul {
   text-align: right;
@@ -302,12 +303,12 @@ header ul li a {
   color: #ffffff;
 }
 header ul li a:hover {
-  color: #37cca2;
+  color: orange;
 }
 header ul li a:hover,
 header ul li a.active {
-  color: #37cca2;
-  border-bottom: 2px solid #37cca2;
+  color: orange;
+  border-bottom: 2px solid orange;
 }
 header .overlay {
   position: absolute;
@@ -527,7 +528,7 @@ body.short-header header {
   font-size: 0.85rem;
 }
 .bio .user-avatar-hover ul li a:hover {
-  color: #37cca2;
+  color: orange;
 }
 .bio.doHover .user-avatar img {
   -moz-opacity: 0.8;
@@ -588,7 +589,7 @@ footer i {
 }
 footer a:hover,
 footer i:hover {
-  color: #37cca2;
+  color: orange;
 }
 footer i {
   font-size: 1.1rem;
@@ -654,7 +655,7 @@ a.btn.btn-mini:hover {
   margin-bottom: 25px;
 }
 .post a.back:hover span {
-  color: #37cca2;
+  color: orange;
 }
 .post .post-content a {
   text-decoration: underline;
@@ -845,7 +846,7 @@ a.btn.btn-mini:hover {
   font-size: 0.9rem;
 }
 .post-tags li a:hover {
-  background-color: #37cca2;
+  background-color: orange;
 }
 .post-author {
   cursor: default;
@@ -888,7 +889,7 @@ a.btn.btn-mini:hover {
   font-size: 0.85rem;
   font-family: 'Roboto';
   font-weight: 400;
-  color: #37cca2;
+  color: orange;
 }
 .post-options {
   width: 50%;
@@ -1122,7 +1123,7 @@ div.posts h3 a {
   color: #0e3029;
 }
 div.posts h3 a:hover {
-  color: #37cca2;
+  color: orange;
 }
 div.posts h3 a.like {
   position: absolute;
@@ -1135,10 +1136,10 @@ div.posts h3 a.like span {
   color: #afb7b5;
 }
 div.posts h3 a.like:hover {
-  color: #37cca2;
+  color: orange;
 }
 div.posts h3 a.like:hover span {
-  color: #37cca2;
+  color: orange;
 }
 h3.tag-header {
   padding-bottom: 50px;
@@ -1170,10 +1171,10 @@ h3.tag-header {
   color: #afb7b5;
 }
 .pagination a:hover {
-  color: #37cca2;
+  color: orange;
 }
 .pagination a:hover span {
-  color: #37cca2;
+  color: orange;
 }
 .pagination .prev {
   float: left;
