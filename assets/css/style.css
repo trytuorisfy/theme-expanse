@@ -190,7 +190,7 @@ header {
   width: 100%;
   height: 162px;
   overflow: hidden;
-  background-color: #000;
+  background-color: #588598;
 }
 header .bg {
   position: absolute;
@@ -1088,10 +1088,10 @@ div.posts div.item .post-author p span {
   display: inline;
 }
 div.posts div.item .dots {
-  display: block;
-  padding-top: 50px;
+  display: none;
+/*  padding-top: 50px;
   clear: both;
-  text-align: center;
+  text-align: center;*/
 }
 div.posts div.item .dots span {
   display: inline-block;
