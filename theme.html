@@ -15,6 +15,8 @@
 
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="{{ assets('css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ assets('css/css.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ assets('css/ss-pika.css') }}">
 
     <!-- standard google analytics -->
     {% if site.analytics %}
@@ -38,7 +40,7 @@
 
     {% else %}
     <header{% if is_post %} class="short"{% endif %}>
-      <img src="images/rainbow-bg.png" class="rainbow">
+      <img src="{{ assets('images/rainbow-bg.png') }}" class="rainbow">
       <div class="container wide">
         <h1><a href="{{ site.base_url }}">{{ site.name }}</a></h1>
         {% if pages %}
