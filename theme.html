@@ -240,7 +240,17 @@
 
     {% endif %}
 
-    {{ footer_meta }}
+    <!-- assets -->
+    <script src="{{ assets('js/jquery.min.js') }}"></script>
+    <script src="{{ assets('js/postachio-pdf.min.js') }}"></script>
+    <script src="{{ assets('js/mediaelement-and-player.min.js') }}"></script>
+    <script src="{{ assets('js/postachio-type-cleanup.js') }}"></script>
+    <!-- media player -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('audio').mediaelementplayer();
+    });
+    </script>
 
     <!-- js -->
     <script type="text/javascript">
